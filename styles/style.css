@@ -1,4 +1,4 @@
-.header{
+.header {
     background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -10,11 +10,11 @@
 }
     
 
-.header_menu_item_main{
+.header_menu_item_main {
     list-style: none;
 }
 
-.header_menu_list{ 
+.header_menu_list { 
     margin-left: 5px;
     display: flex;
     list-style: circle;
@@ -23,35 +23,33 @@
 
 }
 
-.header_menu_item{
+.header_menu_item {
     margin: 4px 10px 0 22px;
     
 }
 
 
 
-.address{
-    justify-self: end;
+.address {
+    
     text-underline-offset: 4px;
     line-height: 1.35;
     font-style: normal;
     display: block;
-    position: relative;
-    left: -62px;
-    top: 2px;
+    margin-left: 187px;
+    margin-top: 4px;
 
 }
 
-.header_logo_image{
+.header_logo_image {
     display: block;
     width: 148px;
     height: 105px;
     
 }
 
-.cover{
-    background-image: url(/images/cover.jpg);
-    height: 757px;
+.cover {
+    background-image: url(../images/cover.jpg);
     padding: 165px 50px 51px;
     margin-bottom: 180px;
     background-size: cover;
@@ -60,8 +58,8 @@
     z-index: 1;
 }
 
-.overlay{
-    background-color: rgb(0 0 0 / .6);
+.overlay {
+    background-color: rgb(0 0 0 / 0.6);
     width: 100%;
     height: 100%;
     inset: 0;
@@ -69,7 +67,7 @@
     z-index: 2;
 }
 
-.cover__title{
+.cover__title {
     font-size: 100px;
     font-weight: 700;
     text-transform: uppercase;
@@ -77,7 +75,7 @@
     color: #fff;   
 }
 
-.aligned-text{
+.aligned-text {
     display: block;
     white-space: nowrap;
     letter-spacing: 30px;
@@ -86,26 +84,26 @@
     
 }
 
-.letter-spacing-extended{
+.letter-spacing-extended {
     letter-spacing: 60px;
     
 }
 
-.aligned-text_center{
+.aligned-text_center {
     text-align: center;
     margin-top: 12px;
 }
 
-.aligned-text_right{
+.aligned-text_right {
     text-align: right;
     margin-top: 5px;
 }
 
-.no-letter-spacing{
+.no-letter-spacing {
     letter-spacing: 0;
 }
 
-.cover__description{
+.cover__description {
     display: flex;
     gap: 79px;
     align-items: center;
@@ -113,23 +111,20 @@
     
 }
 
-.cover__description-text{
+.cover__description-text {
     font-weight: 400;
     word-spacing: 18px;
-    margin-bottom: 53px;
     margin-left: 30px;
     text-transform: uppercase;
     color: #fff;
     align-items: center;
-    font-family: "Raleway";
     font-size: 22px;
     line-height: 28px;
     text-align: left;
     z-index: 2;
 }
 
-.bet-button{
-    font-family: "Raleway", sans-serif;
+.bet-button {
     font-weight: 500;
     font-size: 22px;
     color: #fff;
@@ -138,12 +133,11 @@
     text-transform: uppercase;
     background-color: transparent;
     padding: 12px 32px 11px 31px;
-    margin-bottom: 51px;
     z-index: 2;
     
 }
 
-.lots{
+.lots {
     margin-bottom: 146px;
     padding: 0 24px;
     background-color: #fff;
@@ -151,7 +145,6 @@
 
   .lots__heading {
     text-transform: uppercase;
-    font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 40px;
     margin-bottom: 27px;
@@ -173,7 +166,7 @@
     flex-grow: 1;
   }
 
-  .card{
+  .card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -195,23 +188,21 @@
   }
   
   .card__title {
-    font-family: Raleway, sans-serif;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 22px;
     color: #fff;
     text-decoration: underline;
     position: relative;
-    z-index: 1;
+    z-index: 3;
   }
   
   .card__text {
-    font-family: Raleway, sans-serif;
     font-weight: normal;
     font-size: 20px;
     color: #fff;
     position: relative;
-    z-index: 1;
+    z-index: 3;
     line-height: 1.2;
   }
   
@@ -226,15 +217,8 @@
   .card_type_picture {
     background-image: url("../images/card-lot-03.jpg");
   }
-  
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-  }
  
-  .lots__look-more-link{
+  .lots__look-more-link {
     display: block;
     font-size: 20px;
     line-height: 25px;
@@ -246,7 +230,6 @@
 .about {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: repeat(3, 190px);
   gap: 24px;
 }
 
@@ -274,61 +257,54 @@
   font-size: 40px;
   text-transform: uppercase;
   align-self: end;
-  margin-bottom: 7px;
+  margin-bottom: 74px;
+  margin-top: 135px;
 }
 
 .about__text {
   font-size: 20px;
   width: 690px;
+  line-height: 1.18;
+  margin-top: 3px;
 }
 
 
-.footer{
+.footer {
   display: flex;
-  padding: 157px 50px 88px 50px;
+  padding: 181px 50px 88px 51px;
   font-size: 18px;
   font-weight: 400;
   justify-content: space-between;
-  margin-left: 64px;
 }
 
-.address_footer{
-  margin-top: -2px;
-  margin-right: -2px;
-  
+.address_footer {
+  text-underline-offset: 4px;
+  line-height: 1.35;
+  font-style: normal;
+  display: block;
+  margin-left: 0;
+  margin-top: 0;
 }
 
-.footer__menu{
+.footer__menu {
   list-style: none;
   text-align: center;
-  margin-right: 25px;
+  margin-left: 36px;
   text-underline-offset: 4px;
 
 }
 
-.footer__social-list{
+.footer__menu_list {
+  list-style: none;
+}
+
+.footer__social-list {
   display: flex;
   list-style: none;
   gap: 48px;
 }
 
-.footer__social-icon_you{
-  background: url(/images/yt.svg) no-repeat;
-  display: block;
-  width: 48px;
-  height: 48px;
-}
-
-.footer__social-icon_vk{
-  background: url(/images/vk.svg) no-repeat;
-  display: block;
-  width: 48px;
-  height: 48px;
-}
-
-.footer__social-icon_p{
-  background: url(/images/pinterest.svg) no-repeat;
-  display: block;
+.footer_logo_image {
   width: 48px;
   height: 48px;
 }
